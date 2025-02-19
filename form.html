@@ -91,7 +91,7 @@
             Titolo versione italiana
         </div>
         <!-- /inserimento titolo libro -->
-        <div class="row row-cols-lg-3">
+        <div class="row row-cols-lg-3 mb-4">
             <!-- scelta genere del libro -->
             <div> 
                 <label for="book-genre" class="form-label fw-medium">Genere</label>
@@ -113,8 +113,26 @@
                 <label for="isbn-code" class="form-label fw-medium">ISBN#</label>
                 <input type="text" class="form-control" id="isbn-code" placeholder="Inserisci il codice ISBN#">
             </div>
+            <!-- /anno pubblicazione e isbn -->
         </div>
-        <!-- /anno pubblicazione e isbn -->
+
+        <hr class="mb-4">
+        
+        <!-- note -->
+        <div class="mb-3">
+            <label for="notes" class="form-label fw-medium">Note</label>
+            <textarea class="form-control" id="notes" rows="4" placeholder="Inserisci eventuali note sul libro"></textarea>
+          </div>
+        <!-- /note -->
+
+        <!-- check and sub-button -->
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="check-disp">
+            <label class="form-check-label" for="check-disp">Disponibile anche in digitale</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+        <!-- /check and sub-button-->
+        
 
 
 
