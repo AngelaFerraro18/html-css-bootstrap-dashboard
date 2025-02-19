@@ -63,61 +63,63 @@
 
     <!-- Corpo della pagina -->
     <main class="container">
-    
-            <!-- Intestazione form pagina -->
-            <header class="mb-4">
-                <h1>Nuovo libro</h1>
-            </header>
-            <!-- /Intestazione form pagina -->
 
-            <!-- prima parte del form -->
-            <div class="row mb-2">
-                <div class="mb-3 col">
-                    <label for="author-name" class="form-label fw-medium">Nome Autore</label>
-                    <input type="text" class="form-control" id="author-name"
-                        placeholder="Inserisci il nome dell'autore">
-                </div>
-                <div class="mb-3 col">
-                    <label for="author-surname" class="form-label fw-medium">Cognome Autore</label>
-                    <input type="text" class="form-control" id="author-surname"
-                        placeholder="Inserisci il cognome dell'autore">
-                </div>
+        <!-- Intestazione form pagina -->
+        <header class="mb-4">
+            <h1>Nuovo libro</h1>
+        </header>
+        <!-- /Intestazione form pagina -->
+
+        <!-- prima parte del form -->
+        <div class="row mb-2">
+            <div class="mb-3 col">
+                <label for="author-name" class="form-label fw-medium">Nome Autore</label>
+                <input type="text" class="form-control" id="author-name" placeholder="Inserisci il nome dell'autore">
             </div>
-            <!-- /prima parte del form -->
-
-            <!-- inserimento titolo libro -->
-            <label for="title-book" class="form-label fw-medium">Titolo</label>
-            <input type="text" id="title-book" class="form-control" placeholder="Inserisci il titolo del libro">
-            <div class="form-text mb-4">
-             Titolo versione italiana
+            <div class="mb-3 col">
+                <label for="author-surname" class="form-label fw-medium">Cognome Autore</label>
+                <input type="text" class="form-control" id="author-surname"
+                    placeholder="Inserisci il cognome dell'autore">
             </div>
-            <!-- /inserimento titolo libro -->
+        </div>
+        <!-- /prima parte del form -->
 
+        <!-- inserimento titolo libro -->
+        <label for="title-book" class="form-label fw-medium">Titolo</label>
+        <input type="text" id="title-book" class="form-control" placeholder="Inserisci il titolo del libro">
+        <div class="form-text mb-4">
+            Titolo versione italiana
+        </div>
+        <!-- /inserimento titolo libro -->
+        <div class="row row-cols-lg-3">
             <!-- scelta genere del libro -->
-            <label for="book-genre" class="form-label fw-medium">Genere</label>
-            <select class="form-select mb-3" aria-label="Default select example">
-              <option selected="">Scegli il genere</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+            <div> 
+                <label for="book-genre" class="form-label fw-medium">Genere</label>
+                <select class="form-select mb-3" aria-label="Default select example">
+                    <option selected="">Scegli il genere</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
             <!-- /scelta genere del libro -->
 
             <!-- anno pubblicazione e isbn -->
             <div class="mb-3">
                 <label for="public-year" class="form-label fw-medium">Anno di Pubblicazione</label>
                 <input type="text" class="form-control" id="public-year" placeholder="Inserisci l'anno">
-              </div>
-              <div class="mb-3">
+            </div>
+            <div class="mb-3">
                 <label for="isbn-code" class="form-label fw-medium">ISBN#</label>
                 <input type="text" class="form-control" id="isbn-code" placeholder="Inserisci il codice ISBN#">
-              </div>
-              <!-- /anno pubblicazione e isbn -->
-            
-            
+            </div>
+        </div>
+        <!-- /anno pubblicazione e isbn -->
 
 
-        
+
+
+
     </main>
     <!-- /Corpo della pagina -->
 
